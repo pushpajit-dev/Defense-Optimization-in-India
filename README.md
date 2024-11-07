@@ -228,3 +228,8 @@ print(f'Predicted trade volume with China for future years:\n{future_years["year
 
 ### With advancements in satellite technology and internet access, data collection in even remote regions becomes feasible, further enhancing India’s geopolitical strategy and national defense. This approach exemplifies how defense studies and geopolitical analysis, when combined with data technology, can shape and reinforce India’s strategic framework.
 
+### Disclaimer
+The google colab, running code at your own risks, if files found missing, download separatly, Codes are generally based on github open source repo, so, if did not work take help from Gemini to fix it. If Found code is not worked and any other malicious installed from other sources so, I am not responsible for this.
+
+### Copyright
+You can Use this article as reference, don't use directly, many authors from different places written their own briefs, those has no permission, so make sure careful, if found make sure to credit owners.
