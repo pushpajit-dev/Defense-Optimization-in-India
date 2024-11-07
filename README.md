@@ -33,4 +33,10 @@ Modern defense research benefits greatly from a diverse array of methodologies, 
 ## **Defense Strategic Studies**
 > Concept, Role, Assumption & Approaches
 ## ![Defense startegic studies](https://github.com/pushpajit-dev/Optimizing-India-s-Defense-Framework-through-Database-Driven-Analysistrategic-Analysis/blob/b3233b5af3dd7c42710ab7907579c203eed1e456/Defense%20Studies%20%26%20DBMS%20(1).jpg)
-## ****
+## **What is Existence of Strategic and Area Studies?**
+## According to an American Japanologist **Alan Tansman** Area Studies is an Enterprise Seeking to know analysis interpret with foreign culture through a multi-disciplinary lens. Basically, it is a Social scientific research to understand, Explain in professional field. It is a multi-disciplinary, Inter-disciplinary foreign study. To Understand friendly, neighbour countries or enemy or un-friendly territories.
+## **Origins**
+## After attack of Pearl Harbour by japanese reinformcement, USA appointed American anthropologis, Ruth Benedict to study about Japan. The origin of the Area Studies began in USA. Across the Sea during trade and throughout empire expansion, it become more real. Ruth Benedict wrote the book The Chrysanthemum and the Sword. After second world war, world's were divided into three pieces, They owned their Sovereignty. During Cold war US has more foundation that help to grow the demand of A & S, Many more foundations and companies like Ford, Rockefellar, Dale Carnegie was there to create an overall fund and the oriental studies became Area Studies. There was Human relations Area files (HRAF), which is an organisation with 500 Members institution in the Us and more that 20 Countries.
+## **Methods**
+## Strategic, Economic, Commercial, Intellectual.
+## It is a Field Research and Multi-disciplinary life long devotion. According to Alan Tansman, It is a process and case of translation like translate oparticular cultureand their society into our language or According to our Characteristic [Translating the foreign culture through a multi-disciplinary view] It has Purpose, Methods and Area that need to be clear and understand explain through logical substantial way, Knowledge Reconstruction the decision.
