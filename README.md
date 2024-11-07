@@ -142,8 +142,8 @@ Data-driven technology helps defense analysts and policymakers make sense of vas
     Apply basic predictive modeling to assess future trade shifts based on current trends.
 
 ## **To test this we need following datasets**
-## > ![Indian Trade Data](https://github.com/pushpajit-dev/Optimizing-India-s-Defense-Framework-through-Database-Driven-Analysistrategic-Analysis/blob/be3a1678a1d9b489034b3f2c33c85b0f780852d2/Import_data.csv)
-## > ![China and Asia Trade Data](https://github.com/pushpajit-dev/Optimizing-India-s-Defense-Framework-through-Database-Driven-Analysistrategic-Analysis/blob/be3a1678a1d9b489034b3f2c33c85b0f780852d2/China%20Data.csv)
+## >> ![Indian Trade Data](https://github.com/pushpajit-dev/Optimizing-India-s-Defense-Framework-through-Database-Driven-Analysistrategic-Analysis/blob/be3a1678a1d9b489034b3f2c33c85b0f780852d2/Import_data.csv)
+## >> ![China and Asia Trade Data](https://github.com/pushpajit-dev/Optimizing-India-s-Defense-Framework-through-Database-Driven-Analysistrategic-Analysis/blob/be3a1678a1d9b489034b3f2c33c85b0f780852d2/China%20Data.csv)
 
 
 ## **What will be Input?**
@@ -153,9 +153,7 @@ Data-driven technology helps defense analysts and policymakers make sense of vas
 
 ## **RUN THE CODE BY YOURSELF**
 > Make sure to have basic knowledge about Google Colab
-#
-
-
+## ![Test With Google Colab](https://colab.research.google.com/drive/1lpi7iKmgVVMKLCTy54HBQ1HNxRMPo_n4?usp=sharing)
 
 ## **Codes for Google Colab and Dataset Provided**
 ### **Step 1: Load the Data**
