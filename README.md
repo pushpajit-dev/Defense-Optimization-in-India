@@ -140,3 +140,93 @@ Data-driven technology helps defense analysts and policymakers make sense of vas
     Use a dataset containing India’s trade figures with neighboring countries.
     Identify trends using visualization techniques.
     Apply basic predictive modeling to assess future trade shifts based on current trends.
+
+## **To test this we need following datasets**
+## > ![Indian Trade Data](https://github.com/pushpajit-dev/Optimizing-India-s-Defense-Framework-through-Database-Driven-Analysistrategic-Analysis/blob/be3a1678a1d9b489034b3f2c33c85b0f780852d2/Import_data.csv)
+## > ![China and Asia Trade Data](https://github.com/pushpajit-dev/Optimizing-India-s-Defense-Framework-through-Database-Driven-Analysistrategic-Analysis/blob/be3a1678a1d9b489034b3f2c33c85b0f780852d2/China%20Data.csv)
+
+
+## **What will be Input?**
+> By learning below colab code we can input India and China Data, Focusing, Country, Year, Volume, Earnings as a Keys
+## **Result**
+> Output is Loaded Indian Trading data, Flitering specific keys, Volume and Year till Provided year, Comparison with China Data, Loaded China Data, Predective Model- How china will cross India and Nation, The Volume and other aspects.
+
+## **RUN THE CODE BY YOURSELF**
+> Make sure to have basic knowledge about Google Colab
+#
+
+
+
+## **Codes for Google Colab and Dataset Provided**
+### **Step 1: Load the Data**
+> Upload your dataset to Google Colab and use pandas to load it:
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+## Load dataset (assuming it's in CSV format)
+data = pd.read_csv('india_geopolitical_data.csv')
+data.head()
+
+### **Step 2: Data Cleaning and Exploration**
+> Examine data for missing values and clean it if needed:
+
+### Check for missing values
+print(data.isnull().sum())
+
+### Drop any rows with missing values, if necessary
+data = data.dropna()
+
+### Quick overview of trade volume by country
+trade_by_country = data.groupby('country')['trade_volume'].sum().sort_values(ascending=False)
+print(trade_by_country)
+
+## **Step 3: Visualizing Trade Trends**
+> Plot trade volume over time to see trends with key neighboring countries like China and Pakistan:
+
+### Filter data for specific countries
+china_data = data[data['country'] == 'China']
+pakistan_data = data[data['country'] == 'Pakistan']
+
+### Plot trade trends
+plt.figure(figsize=(12, 6))
+plt.plot(china_data['year'], china_data['trade_volume'], label='China', marker='o')
+plt.plot(pakistan_data['year'], pakistan_data['trade_volume'], label='Pakistan', marker='o')
+plt.xlabel('Year')
+plt.ylabel('Trade Volume (in millions)')
+plt.title('India’s Trade Volume with China and Pakistan')
+plt.legend()
+plt.show()
+
+## **Step 4: Predictive Modeling**
+> Use a simple linear regression to predict trade volume with China and Pakistan, which could indicate economic stability or geopolitical risks:
+
+### from sklearn.linear_model import LinearRegression
+### from sklearn.model_selection import train_test_split
+
+### Prepare the data
+X = china_data[['year']]
+y = china_data['trade_volume']
+
+### Train-test split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+### Model training
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+### Predict future trade volume
+future_years = pd.DataFrame({'year': [2025, 2026, 2027, 2028, 2029]})
+predicted_trade = model.predict(future_years)
+
+### Print predictions
+print(f'Predicted trade volume with China for future years:\n{future_years["year"].values} -> {predicted_trade}')
+
+## **Interpreting the Analysis*
+> From these insights, geopolitical analysts in India can:
+
+    Anticipate Economic Risks: If trade with China is projected to decline, policymakers might investigate if this correlates with rising military tension, prompting increased security or diplomatic actions.
+    Detect Patterns in Military Activity: If trade volume fluctuates alongside changes in a military tension index, defense institutions may look for causative factors and adjust border policies accordingly.By using data-driven approaches like DBMS and predictive analytics, India can streamline its defense strategy and anticipate geopolitical shifts more effectively. These insights support more informed decision-making within political institutions, allowing India to proactively address emerging risks and maintain stability within South Asia.
+
+### With advancements in satellite technology and internet access, data collection in even remote regions becomes feasible, further enhancing India’s geopolitical strategy and national defense. This approach exemplifies how defense studies and geopolitical analysis, when combined with data technology, can shape and reinforce India’s strategic framework.
+
