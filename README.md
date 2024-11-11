@@ -204,8 +204,8 @@ Data-driven technology helps defense analysts and policymakers make sense of vas
 ## **Step 4: Predictive Modeling**
 > Use a simple linear regression to predict trade volume with China and Pakistan, which could indicate economic stability or geopolitical risks:
 
-### from sklearn.linear_model import LinearRegression
-### from sklearn.model_selection import train_test_split
+ from sklearn.linear_model import LinearRegression
+ from sklearn.model_selection import train_test_split
 
 ### Prepare the data
 > X = china_data[['year']]
@@ -225,7 +225,7 @@ Data-driven technology helps defense analysts and policymakers make sense of vas
 ### Print predictions
 > print(f'Predicted trade volume with China for future years:\n{future_years["year"].values} -> {predicted_trade}')
 
-## **Interpreting the Analysis*
+## *Interpreting the Analysis*
 > From these insights, geopolitical analysts in India can:
 
     Anticipate Economic Risks: If trade with China is projected to decline, policymakers might investigate if this correlates with rising military tension, prompting increased security or diplomatic actions.
