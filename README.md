@@ -158,7 +158,7 @@ Data-driven technology helps defense analysts and policymakers make sense of vas
 
 ## **RUN THE CODE BY YOURSELF**
 > Make sure to have basic knowledge about Google Colab
-## ![Test With Google Colab](https://github.com/pushpajit-dev/Optimizing-India-s-Defense-Framework-through-Database-Driven-Analysistrategic-Analysis/blob/8c2cd96eb47b19bf5fe9c8a86dd82f6bab6a9fd8/Predictive_Modeling.ipynb)
+## [Test With Google Colab](https://github.com/pushpajit-dev/Optimizing-India-s-Defense-Framework-through-Database-Driven-Analysistrategic-Analysis/blob/8c2cd96eb47b19bf5fe9c8a86dd82f6bab6a9fd8/Predictive_Modeling.ipynb)
 
 ## **Codes for Google Colab and Dataset Provided**
 ### **Step 1: Load the Data**
